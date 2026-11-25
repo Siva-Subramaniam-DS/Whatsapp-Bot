@@ -1,0 +1,19 @@
+{
+  "name": "scamguard-whatsapp-bot",
+  "version": "0.1.0",
+  "description": "WhatsApp group bot that deletes scam messages",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.24",
+    "better-sqlite3": "11.10.0",
+    "dotenv": "16.4.7",
+    "pino": "9.6.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}
